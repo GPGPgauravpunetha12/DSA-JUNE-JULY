@@ -1,0 +1,20 @@
+class Solution {
+    public int[] twoSum(int[] nums, int target) { 
+        if (nums.length == 0) return null;
+        
+        for (int i = 0, j = 1; i < nums.length && j < nums.length; j++) {
+            int currNum = nums[i];
+            int currRemain = target - currNum;
+            
+            if (nums[j] == currRemain) {
+                return new int[]{i, j};
+            }
+            
+            if (j == nums.length -1) { //j reaches end of array, no finding
+                i++;
+                j = i; //no need to start from beginning
+            }
+        }
+        return null;
+    }
+}
