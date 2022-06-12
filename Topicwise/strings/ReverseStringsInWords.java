@@ -8,4 +8,26 @@ public class ReverseStringsInWords {
         }
          System.out.println(sb.toString().trim()); 
     }}
+    // SIMPLE code  
     
+    // class Solution {
+    //     public String reverseWords(String s) {
+    //   //  String words[]=str.split("\\s+"); //+ will see for more space more than one space// for regular exp of space //we can //break space 
+    // s=s.trim();
+    // String[] f=s.split("\s+");
+    // String an="";
+    
+    // for(int i=f.length-1;i>=0;i--)
+    // {
+    
+    //         an+=f[i];
+    //         if(i!=0) {
+    //             an += " ";
+    //         }
+            
+    
+    // }
+    // return an;
+    
+    //     }
+    // }
