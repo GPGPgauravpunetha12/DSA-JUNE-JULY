@@ -10,33 +10,33 @@
             // arr5[1] = new int[20];
             // arr5[2] = new int[30];
             // Traverse
-            // for (int i = 0; i < arr5.length; i++) {
-            // for (int j = 0; j < arr5[i].length; j++) {
-            // System.out.print(arr5[i][j] + " ");
-            // }
-            // System.out.println();
-            // }
+            for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+            System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+            }
             // One D Get from the TwoD
-            // for (int a[] : arr5) {
-            // // Get the value from the ONe-D
-            // for (int e : a) {
-            // System.out.print(e + " ");
-            // }
-            // System.out.println();
-            // }
+            for (int a[] : arr) {
+            // Get the value from the ONe-D
+            for (int e : a) {
+            System.out.print(e + " ");
+            }
+            System.out.println();
+            }
             // Row Major Order
-            for (int i = 0; i < arr.length; i++) {
-                for (int j = 0; j < arr[i].length; j++) {
-                    System.out.print(arr[i][j] + " ");
-                }
-                System.out.println();
-            }
-            // Column Major Order
-            for (int i = 0; i < arr.length; i++) {
-                for (int j = 0; j < arr[i].length; j++) {
-                    System.out.print(arr[j][i] + " ");
-                }
-                System.out.println();
-            }
+            // for (int i = 0; i < arr.length; i++) {
+            //     for (int j = 0; j < arr[i].length; j++) {
+            //         System.out.print(arr[i][j] + " ");
+            //     }
+            //     System.out.println();
+            // }
+            // // Column Major Order
+            // for (int i = 0; i < arr.length; i++) {
+            //     for (int j = 0; j < arr[i].length; j++) {
+            //         System.out.print(arr[j][i] + " ");
+            //     }
+            //     System.out.println();
+            // }
         }
     }
