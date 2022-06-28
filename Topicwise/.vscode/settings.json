@@ -1,7 +1,8 @@
 {
     "java.project.sourcePaths": [
         "strings",
+        "Recursion",
         "2-D-Array",
-        "Recursion"
+        "DP"
     ]
 }

@@ -6,7 +6,7 @@ public class RightPyramid {
    }
 
  static void rightpyramid(int n, int row) {
-    if(row>n)
+    if(n==0)
     return;
     spaces(n);
     PrintStar(row);

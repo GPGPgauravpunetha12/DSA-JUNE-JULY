@@ -2,7 +2,7 @@ public class LinearSearch {
     public static void main(String[] args) {
         int a[] = {1,2,3,4,5,6,7,8,9,1};
         int srch=1;
-        int index;
+       
         findNumber(a,srch,0);
         System.out.println("Search the index of A Number"+ findNumber(a,srch,0));
     }
