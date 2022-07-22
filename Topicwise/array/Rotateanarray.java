@@ -1,4 +1,4 @@
-class RotateAnArray {
+public class RotateAnArray {
     static void reverse(int arr[], int i, int j) {
         while (i < j) {
             int temp = arr[i];
@@ -11,7 +11,7 @@ class RotateAnArray {
 
     public static void main(String[] args) {
         int arr[] = { 10, 20, 30, 40, 50 };
-        int k = -7;
+        int k = 2;
         k = k % arr.length; // Overflow Range
         // System.out.println("After Overflow " + k);
         // Negative Case
