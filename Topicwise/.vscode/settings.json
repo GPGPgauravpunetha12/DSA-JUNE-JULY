@@ -1,8 +1,13 @@
 {
     "java.project.sourcePaths": [
         "strings",
+        "Tree",
+        "Stack",
         "Recursion",
+        "Queue",
+        "LinkedList",
+        "DP",
         "2-D-Array",
-        "DP"
+        "HeaP"
     ]
 }

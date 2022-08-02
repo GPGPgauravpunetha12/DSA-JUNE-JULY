@@ -12,6 +12,9 @@ int arr[]=new int[n+1];
         }
         return arr[n];
     }
+    public boolean searchWord(String word, char[][] board) {
+        return false;
+    }
 }
 
  
